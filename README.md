@@ -28,8 +28,8 @@ We provide the model pretrained on R2V2 for 200 epochs.
 
 | method        | pre-train epochs on R2V2 dataset | ImageNet Top-1 Linear Eval | OTB Precision | OTB Success | UCF Top-1 | pretrained model |
 |---------------|:--------------------------------:|:--------------------------:|:-------------:|:-----------:|:---------:|------------------|
-| MoCo          |                200               |            53.8            |      56.1     |     40.6    |    80.5   |                  |
-| CycleContrast |                200               |            55.7            |      69.6     |     50.4    |    82.8   |                  |
+| MoCo          |                200               |            53.8            |      56.1     |     40.6    |    80.5   | [pretrain ckpt](https://github.com/happywu/CycleContrast/releases/download/v1.0.0/moco_res50_r2v2_ep200.pth.tar) |
+| CycleContrast |                200               |            55.7            |      69.6     |     50.4    |    82.8   | [pretrain ckpt](https://github.com/happywu/CycleContrast/releases/download/v1.0.0/cycle_res50_r2v2_ep200.pth.tar) |
 
 ### Run Experiments 
 
