@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5102e0ba-2cb0-4999-b2a9-d375fdde9c53" name="cedar (project level)">
+        <fileTransfer rootFolder="/home/haipwu" accessType="SFTP" host="cedar.computecanada.ca" port="22" sshConfigId="3cd53950-e0ed-4cc6-a6a6-dfb184e817ea" sshConfig="haipwu@cedar.computecanada.ca:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="08716a73-a6d6-4813-97a5-1c807f0d9c69" name="beluga">
+        <fileTransfer rootFolder="/home/haipwu" accessType="SFTP" host="beluga.computecanada.ca" port="22" sshConfigId="0475b8ba-6eba-4880-b0b6-4bce02497d1d" sshConfig="haipwu@beluga.computecanada.ca:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
